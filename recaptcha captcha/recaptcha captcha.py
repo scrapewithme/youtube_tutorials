@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import os
 
+
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 url = "https://www.google.com/recaptcha/api2/demo"
